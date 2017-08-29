@@ -1,0 +1,83 @@
+{
+  "name": "razorsedge-snmp",
+  "version": "3.8.1",
+  "author": "razorsedge",
+  "summary": "Simple Network Management Protocol is for monitoring network and computer equipment. Net-SNMP implements v1, v2c, and v3 on both IPv4 and IPv6.",
+  "license": "Apache-2.0",
+  "source": "https://github.com/razorsedge/puppet-snmp.git",
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">=2.7.20 <5.0.0"
+    }
+  ],
+  "project_page": "https://github.com/razorsedge/puppet-snmp",
+  "issues_url": "https://github.com/razorsedge/puppet-snmp/issues",
+  "tags": [
+    "snmp",
+    "net-snmp",
+    "monitoring"
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystemrelease": [
+        "5",
+        "6",
+        "7"
+      ],
+      "operatingsystem": "RedHat"
+    },
+    {
+      "operatingsystemrelease": [
+        "5",
+        "6",
+        "7"
+      ],
+      "operatingsystem": "CentOS"
+    },
+    {
+      "operatingsystemrelease": [
+        "5",
+        "6",
+        "7"
+      ],
+      "operatingsystem": "OracleLinux"
+    },
+    {
+      "operatingsystemrelease": [
+        "9.2",
+        "10.0"
+      ],
+      "operatingsystem": "FreeBSD"
+    },
+    {
+      "operatingsystemrelease": [
+        "5.9"
+      ],
+      "operatingsystem": "OpenBSD"
+    },
+    {
+      "operatingsystemrelease": [
+        "11 SP1"
+      ],
+      "operatingsystem": "SLES"
+    },
+    {
+      "operatingsystemrelease": [
+        "6",
+        "7"
+      ],
+      "operatingsystem": "Debian"
+    },
+    {
+      "operatingsystemrelease": [
+        "12.04",
+        "14.04"
+      ],
+      "operatingsystem": "Ubuntu"
+    }
+  ],
+  "dependencies": [
+    {"version_requirement":">=2.3.0 <5.0.0","name":"puppetlabs/stdlib"}
+  ]
+}
